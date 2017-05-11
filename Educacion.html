@@ -5,12 +5,12 @@
   <title>Hoja de Vida</title>
 </head>
 <body>
-  <h1>Curriculum Vitae</h1>
+  <h1>  <img src="Imagenes/NUqUHLXwkI.svg" alt="SVG" width="100" height="80">Curriculum Vitae</h1>
   <p><h2>Gabriel Lugo</h2></p>
 <ul>
-  <li><a href="Hoja-de-Vida-DIgital\Index.html">Inicio</a></li>
-  <li><a href="Hoja-de-Vida-DIgital\Emducacion.html">Educacion</a></li>
-  <li><a href="Hoja-de-Vida-DIgital\Experiencia.html">Experiencia</a></li>
+  <li><a href="Index.html">Inicio</a></li>
+  <li><a href="Educacion.html">Educacion</a></li>
+  <li><a href="Experiencia.html">Experiencia</a></li>
 </ul>
   <p>
   <h2>Iformacion Personal</h2>
@@ -21,6 +21,7 @@
       <li><strong>Nombre:</strong> Gabriel</li>
       <li><strong>Apellido:</strong> Lugo</li>
       <li><strong>Edad:</strong> 25</li>
+      <li><strong>Nacimiento: </strong>Santo Domingo</li>
     </ul>
   </p>
   <h2>Educacion</h2>
@@ -57,8 +58,8 @@
   <section>
     <h3>Agregar Estudios</h3>
   <form class="" action="index.html" method="post">
-    Año: <select name="años">
-        <option value="comienzo" disabled="Seleccionar"</option>
+    Año: <select name="años" required>
+        <option value="comienzo">Seleccionar</option>
         <option value="2000">2000</option>
           <option value="2001">2001</option>
             <option value="2002">2002</option>
@@ -84,10 +85,19 @@
                                             <option value="2022">2022</option>
       </select><p></p>
     Institucion: <input  type="text" name="Institucion" placeholder="Agregar la institucion" required><p>
-      Lugar: <input  type="text" name="Lugar" placeholder="Lugar" required>
+      Lugar:<br> <textarea name="Message" rows="3" cols="40"placeholder="lugar" required></textarea>
       <p>Culmino? <input type="radio" name="Radio" value="true">Si <input type="radio" name="Radio" value="false">No</p>
   <input type="submit" value="Enviar"  >
     </section>
-  </form>
+    <footer>
+<p>
+<h5>@Derechos Reservados</h5>
+  <ul>
+    <li><strong>Email: </strong><a href="mailto:gabolugo7@gmail.com">gabolugo7@gmail.com</a></li>
+    <li><strong>Telefono: </strong>809-492-7549 </li>
+    <li><strong>Redes Sociales: </strong><a href="https://www.facebook.com/" target="_blank">Facebook</a> | <a href="https://www.instagram.com/"target="_blank">Instagram</a></li>
+  </ul>
+</p>
+    </footer>
   </body>
 </html>
